@@ -26,11 +26,15 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oxo-bn-0Uh" userLabel="top view">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="241.33333333333334"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fob-ve-FIA">
-                                                <rect key="frame" x="94" y="37" width="226" height="175"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fob-ve-FIA">
+                                                <rect key="frame" x="89.666666666666686" y="56.666666666666671" width="196" height="128"/>
                                             </imageView>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="fob-ve-FIA" secondAttribute="bottom" constant="56.670000000000002" id="NaU-Qk-l4f"/>
+                                            <constraint firstItem="fob-ve-FIA" firstAttribute="top" secondItem="Oxo-bn-0Uh" secondAttribute="top" constant="56.670000000000002" id="ZBe-DR-Iz7"/>
+                                            <constraint firstItem="fob-ve-FIA" firstAttribute="centerX" secondItem="Oxo-bn-0Uh" secondAttribute="centerX" id="fjI-dL-I1D"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Rg-PZ-XoF" userLabel="middle view">
                                         <rect key="frame" x="0.0" y="246.33333333333331" width="375" height="241.33333333333331"/>
