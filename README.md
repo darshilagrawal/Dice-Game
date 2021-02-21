@@ -1,10 +1,10 @@
 
 
 # Dice Game
+A Basic Dice Game Application generating Random Numbers and showing Different faces accordingly
 
 
-
-## What I have learned
+## Topics I have learned
 
 * How to add constraints and understanding how Auto Layout works.
 * How to Pin and Align elements.
