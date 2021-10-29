@@ -12,3 +12,6 @@ A Basic Dice Game Application generating Random Numbers and showing Different fa
 * How to debug auto layout errors.
 * Understanding what Xcode needs in order to correctly layout a design.
 * How to use Stack Views to create complex interfaces.
+
+## Screenshot
+<img src="Documentation/1.png" width="250" height="500"> 
